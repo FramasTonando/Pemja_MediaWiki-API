@@ -21,7 +21,7 @@ def search_wikipedia(query):
 
         if not search_results:
             print("Tidak ada hasil dari query yang diberikan")
-            returnn            
+            return        
 
         # menampilkan hasil pencarian
         for result in search_results:
